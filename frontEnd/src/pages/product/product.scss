@@ -1,0 +1,132 @@
+.product {
+    padding: 20px 50px;
+    display: flex;
+
+
+    .left {
+        flex: 1;
+        display: flex;
+        gap: 25px;
+
+        .images {
+            flex: 1;
+
+            img {
+                height: 90px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .mainImage {
+            flex: 5;
+
+            img {
+                width: 1005;
+                max-height: 80vh;
+                object-fit: cover;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+
+        h2 {
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            color: #333;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: 500;
+            color: #2879fe;
+        }
+
+        p {
+            font-size: 12px;
+            font-weight: 300;
+            color: #444;
+            text-align: justify;
+            letter-spacing: 1px;
+        }
+
+        .quantity {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            button {
+                width: 40px;
+                height: 40px;
+                border-style: none;
+                border-radius: 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                font-weight: 700;
+            }
+        }
+
+        .add {
+            display: flex;
+            align-items: center;
+            padding: 6px;
+            justify-content: center;
+            gap: 10px;
+            width: 180px;
+            background-color: #2879fe;
+            color: white;
+            border-style: none;
+            cursor: pointer;
+            border-radius: 2px;
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .item {
+                display: flex;
+                align-items: center;
+                color: #2879fe;
+                transform: scale(0.8);
+                font-size: 12px;
+                cursor: pointer;
+                gap: 10px;
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 11px;
+            margin-top: 25px;
+            color: #555;
+
+            hr {
+                width: 180px;
+                border: 1px solid rgb(231, 228, 228);
+            }
+        }
+
+        hr {
+            border: 1px solid rgb(231, 228, 228);
+        }
+
+    }
+}
