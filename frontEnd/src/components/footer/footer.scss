@@ -1,0 +1,61 @@
+.footer {
+    
+    margin: 80px 120px 10px 120px;
+    
+
+    .top {
+        display: flex;
+        gap: 50px;
+        justify-self: center;
+
+        .item {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 10px;
+            text-align: justify;
+            font-size: 13px;
+
+            h2{
+                color: #555;
+                font-size: 17px;
+                font-weight: 500;
+            }
+
+            span{
+                color: gray;
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .bottomLeft {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .logo{
+                font-weight: 500;
+                color: #2879f3;
+                font-size: 20px;
+            }
+            .copyright{
+                color: gray;
+                font-size: 12px;
+            }
+        }
+
+        .bottomRight {
+            img{
+                height: 35px;
+                object-fit: contain;
+                width: 350px;
+            }
+        }
+    }
+}
